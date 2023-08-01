@@ -32,8 +32,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Render Deploy Action
-      - uses: johnbeynon/render-deploy-action@v0.0.8
-        with:
-          service-id: SERVICE_ID
-          api-key: RENDER_API
+    - name: Render Deploy Action
+      uses: johnbeynon/render-deploy-action@v0.0.8
+      with:
+        service-id: SERVICE_ID
+        api-key: RENDER_API
